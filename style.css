@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: #0f0f0f;
+  color: #00ffee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  padding: 30px;
+  background: #111;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #00ffee;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  background: #222;
+  color: #00ffee;
+  font-family: 'Orbitron', sans-serif;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #00ffee;
+  border: none;
+  border-radius: 10px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #00c2c2;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.button-group button {
+  flex: 1 1 45%;
+  background-color: #111;
+  color: #00ffee;
+  border: 1px solid #00ffee;
+  transition: 0.3s;
+}
+
+.button-group button.selected {
+  background-color: #00ffee;
+  color: #111;
+}
+
+.hidden {
+  display: none;
+}
+
+#log {
+  text-align: center;
+  margin-top: 20px;
+}

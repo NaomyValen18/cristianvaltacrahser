@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CristianValta03 Crasher</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="loginBox">
+    <h1>Login Crasher</h1>
+    <input type="text" id="username" placeholder="Username" />
+    <input type="password" id="password" placeholder="Password" />
+    <button onclick="login()">Login</button>
+  </div>
+
+  <div id="dashboard" style="display:none;">
+    <h1>CristianValta03 Crasher</h1>
+    <input type="text" id="pesan" placeholder="Masukkan nomor target (62...)" />
+    <div class="buttons">
+      <button onclick="kirim('CrashInvis')">CrashInvis</button>
+      <button onclick="kirim('Fc-Close')">Fc-Close</button>
+      <button onclick="kirim('Invisible')">Invisible</button>
+      <button onclick="kirim('Fc-Invis')">Fc-Invis</button>
+    </div>
+    <p id="success"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
